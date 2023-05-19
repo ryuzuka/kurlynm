@@ -1,0 +1,98 @@
+.wrapper { border-right: 0px; border-right: 0px !important; } 
+
+.table-responsive { border: 0px; padding: 0px; }
+
+.table th, table td { border-bottom: 1px solid #cecece !important; }
+
+.border { border-bottom:1px solid #ddd; }
+
+.nav-tabs-custom{ /* 본문 탭매뉴 붙이기*/
+        text-align: center;
+        margin-bottom: 0 ! important;
+    }
+.nav-pills li { /*History 탭 float*/
+        margin-left: 0 ! important;
+        background: #f7f7f7;
+        font-weight: 600;
+        width: 50%;
+        float: left;
+    }
+
+/* jh.ok - 2018.06.11 */
+.box-body { padding: 5px 10px 0; }
+    
+.modal-header { padding: 15px 15px 0; }
+.modal-body { padding: 0 10px; }
+
+.pl-0 { padding-left: 0px; }
+.pl-10 { padding-left: 10px; }
+.pl-20 { padding-left: 20px; }
+
+.ml-10 { margin-left: 10px; }
+
+.pr-5 { padding-right: 5px; }
+
+.pt-5 { padding-top: 5px; }
+.pt-10 { padding-top: 10px; }
+
+.mt-10 { margin-top: 10px; }
+
+.pb-5 { padding-bottom: 5px; }
+.pb-10 { padding-bottom: 10px; }
+
+.today { font-weight: 800; }
+.red { color: red; }
+.blue { color: blue; }
+
+
+.rp{display:block;position:relative;text-align:right;line-height: 1.4em;}
+.rp:after{content:"Rp";position:absolute;left:2px;font-size:10px;color:#303030;}
+/* jh.ok - 2018.06.11 */
+
+
+/*리스트*/
+.ams-list { padding-top: 10px; }
+.ams-list ul { list-style-type: none;  padding: 0; }
+.ams-list ul li p { margin: 0; width: 90%; margin-left: auto; margin-right: auto; }
+.ams-list ul li p a { font-weight: bold; text-decoration: none; color: #666666;  font-size: 15px; }
+.ams-list ul li p a:hover {color: #428bca}
+.ams-list ul li div { width: 90%; margin-left: auto; margin-right: auto;  }
+.ams-list ul li span:first-child { padding-left: 15px; }
+.ams-list ul li .deli { display: inline-block; padding: 0 15px; color: #999999; }
+
+/*날짜 선택*/
+.calendar_header {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.calendar_header h2 { /*날짜text*/
+    padding: 0 10px;
+    font-family:'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #428bca;
+    float:left;
+    width:70%;
+    margin: 0 0 10px;
+}
+button.switch-month { /*월이동버튼*/
+    background-color: transparent;
+    padding: 0;
+    outline: none;
+    border: none;
+    float: left;
+    width:15%;
+    transition: color .2s;
+}
+
+.footer-btn { /*버튼 하단에고정*/
+/*        position: fixed;*/
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+    }

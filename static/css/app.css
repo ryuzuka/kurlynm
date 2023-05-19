@@ -1,0 +1,332 @@
+#staff-sushic { padding: 100px 0 0 0;  }
+#staff-sushic .top-img { }
+#staff-sushic .section { height: 800px; margin-top: 80px; }
+#staff-sushic .app-wrap { width: 100%; padding: 60px 0 80px 0; }
+
+#staff-sushic .sub-section { width: 1196px; }
+
+#staff-sushic .app-wrap .app-faq .faq-wrap { float: left; width: 100%; height: 114px; text-align: left; vertical-align: top; }
+#staff-sushic .app-wrap .app-faq .faq-wrap span { position: absolute; padding: 50px 0; }
+#staff-sushic .app-wrap .app-faq .faq-wrap img { padding: 25px; }
+#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn { float: right; width: 33%; height: 114px; text-align: right; padding: 29px; }
+#staff-sushic .app-wrap .app-btn { display: block; }
+#staff-sushic .app-wrap .app-msg { display: none; }
+
+#staff-sushic .app-wrap .app-icon { width: 23%; border: 1px solid #c1c1c1; float: left; margin-right: 2.4%; height: 420px; box-sizing: border-box; }
+#staff-sushic .app-wrap .app-last { margin-right: 0%; }
+#staff-sushic .app-wrap .app-icon .app-icon-img { padding: 20px 0 10px 0; }
+#staff-sushic .app-wrap .app-icon .app-desc { width: 80%; padding: 0 10% 0 10%; }
+#staff-sushic .app-wrap .app-icon .app-desc h4 { padding: 0 0 20px 0; font-size: 24px; }
+#staff-sushic .app-wrap .app-icon .app-desc li { list-style: none; text-align: left; line-height: 26px; white-space: normal; }
+
+#staff-sushic .app-wrap .app-btn { width: 100%; display: inline-block; padding: 80px 0 100px 0; }
+#staff-sushic .app-wrap .app-btn a { margin: 0 10px 0 10px; }
+
+#staff-sushic .app-wrap .app-faq { width: 100%; border: 1px solid #c1c1c1; }
+#staff-sushic .app-wrap .app-faq .app-icon-img { height: 114px; }
+#staff-sushic .app-wrap .app-faq .app-desc { float: left; }
+
+
+#staff-app .sub-section { width: 912px; }
+
+#staff-app { padding: 100px 0 0 0;  }
+#staff-app .app-wrap { width: 100%; padding: 40px 0 80px 0; }
+
+#staff-app .app-wrap .open { display: block; }
+#staff-app .app-wrap .close { display: none; }
+#staff-app .app-wrap .app-section { width: 100%; background-color: #F0F0F0; height: 60px; color: #000000; font-size: 20px; line-height: 3em; text-align: left; margin-bottom: 20px; }
+#staff-app .app-wrap .app-section span { padding-left: 30px; float: left; width: 64%;}
+#staff-app .app-wrap .app-section div { float: left; height: 60px; text-align: right; width: 30%; }
+#staff-app .app-wrap .sel { background-color: #FE6F21; color: #FFFFFF; }
+
+#staff-app .app-wrap .app-section-question { width: 100%; }
+#staff-app .app-wrap .app-section-question .btnAdd { width: 96%; padding: 0 0 20px 2%; text-align: right; }
+#staff-app .app-wrap .app-section-question .btnAdd span { line-height: 26px; vertical-align: text-bottom; padding-left: 5px; }
+
+#staff-app .app-wrap table { width: 96%; margin: 20px 2% 20px 2%; }
+#staff-app .app-wrap table th { padding: 0 10px; text-align: right; }
+#staff-app .app-wrap table td { padding: 10px 0; text-align: left; }
+#staff-app .app-wrap table td p { font-weight: 800; margin: 0 0 10px; text-align: left; }
+#staff-app .app-wrap table td span { margin: 0 0 0 0; }
+#staff-app .app-wrap table .alignRight { text-align: right; }
+#staff-app .app-wrap table .alignRight span { margin: 0 20px 0 0; }
+
+#staff-app .app-wrap table td span .txt01 { height: 40px; width: 20%; border: 1px solid #ccc; padding-left: 10px; box-sizing: border-box; }
+#staff-app .app-wrap table td span .txt02 { height: 40px; width: 100%; border: 1px solid #ccc; padding-left: 10px; box-sizing: border-box; }
+#staff-app .app-wrap table td span .txt03 { height: 40px; width: 100%; border: 1px solid #ccc; padding-left: 10px; box-sizing: border-box; margin-bottom: 10px; }
+#staff-app .app-wrap table td span .txt04 { height: 40px; width: 45%; border: 1px solid #ccc; padding-left: 10px; box-sizing: border-box; }
+#staff-app .app-wrap table td span .txt05 { height: 80px; width: 100%; border: 1px solid #ccc; padding-left: 10px; box-sizing: border-box; }
+
+#staff-app .app-wrap table td div span .date-picker { padding-left: 40px; }
+#staff-app .app-wrap table td div .calIcon { margin-top: 10px; position: absolute; margin-left: 10px; }
+
+#staff-app .app-wrap .question-02 { display: none; }
+#staff-app .app-wrap .question-03 { display: none; }
+#staff-app .app-wrap .question-04 { display: none; }
+#staff-app .app-wrap .question-05 { display: none; }
+#staff-app .app-wrap .question-06 { display: none; }
+
+#staff-app .app-wrap .app-section .btnEdit { display: none; }
+
+#staff-app .app-wrap .app-section-question #education-line-02 { display: none }
+#staff-app .app-wrap .app-section-question #education-sec-02 { display: none }
+#staff-app .app-wrap .app-section-question #education-line-03 { display: none }
+#staff-app .app-wrap .app-section-question #education-sec-03 { display: none }
+#staff-app .app-wrap .app-section-question #education-line-04 { display: none }
+#staff-app .app-wrap .app-section-question #education-sec-04 { display: none }
+#staff-app .app-wrap .app-section-question #education-line-05 { display: none }
+#staff-app .app-wrap .app-section-question #education-sec-05 { display: none }
+
+#staff-app .app-wrap .app-section-question #reference-line-02 { display: none }
+#staff-app .app-wrap .app-section-question #reference-sec-02 { display: none }
+#staff-app .app-wrap .app-section-question #reference-line-03 { display: none }
+#staff-app .app-wrap .app-section-question #reference-sec-03 { display: none }
+#staff-app .app-wrap .app-section-question #reference-line-04 { display: none }
+#staff-app .app-wrap .app-section-question #reference-sec-04 { display: none }
+#staff-app .app-wrap .app-section-question #reference-line-05 { display: none }
+#staff-app .app-wrap .app-section-question #reference-sec-05 { display: none }
+
+#staff-app .app-wrap .app-section-question #employment-line-02 { display: none }
+#staff-app .app-wrap .app-section-question #employment-sec-02 { display: none }
+#staff-app .app-wrap .app-section-question #employment-line-03 { display: none }
+#staff-app .app-wrap .app-section-question #employment-sec-03 { display: none }
+#staff-app .app-wrap .app-section-question #employment-line-04 { display: none }
+#staff-app .app-wrap .app-section-question #employment-sec-04 { display: none }
+#staff-app .app-wrap .app-section-question #employment-line-05 { display: none }
+#staff-app .app-wrap .app-section-question #employment-sec-05 { display: none }
+
+#staff-app .app-wrap .app-section-question #skill-line-02 { display: none }
+#staff-app .app-wrap .app-section-question #skill-sec-02 { display: none }
+#staff-app .app-wrap .app-section-question #skill-line-03 { display: none }
+#staff-app .app-wrap .app-section-question #skill-sec-03 { display: none }
+#staff-app .app-wrap .app-section-question #skill-line-04 { display: none }
+#staff-app .app-wrap .app-section-question #skill-sec-04 { display: none }
+#staff-app .app-wrap .app-section-question #skill-line-05 { display: none }
+#staff-app .app-wrap .app-section-question #skill-sec-05 { display: none }
+
+#staff-app .app-wrap .app-section-question .btnAdd { cursor: pointer; }
+
+
+
+#bar-sushic { padding: 100px 0 0 0;  }
+#bar-sushic .top-img { }
+#bar-sushic .section { height: 800px; margin-top: 80px; }
+#bar-sushic .app-wrap { width: 100%; padding: 60px 0 80px 0; }
+
+#bar-sushic .sub-section { width: 1196px; }
+
+#bar-sushic .app-wrap .app-faq .faq-wrap { float: left; width: 48.1%; height: 80px; text-align: left; margin: 35px 0 10px 10px; box-sizing: border-box; }
+#bar-sushic .app-wrap .app-faq .faq-first { border-right: 1px solid #cecece; }
+#bar-sushic .app-wrap .app-faq .faq-wrap span { position: absolute; padding: 40px 0; }
+#bar-sushic .app-wrap .app-faq .faq-wrap img { padding: 0 25px 0 20px; }
+#bar-sushic .app-wrap .app-faq .faq-wrap .faq-btn { float: right; width: 33%; height: 114px; text-align: right; padding: 29px; }
+#bar-sushic .app-wrap .app-btn { display: block; }
+#bar-sushic .app-wrap .app-msg { display: none; }
+
+#bar-sushic .app-wrap .app-icon { width: 17.9%; border: 1px solid #c1c1c1; float: left; margin-right: 2.4%; height: 260px; box-sizing: border-box; }
+#bar-sushic .app-wrap .app-last { margin-right: 0%; }
+#bar-sushic .app-wrap .app-icon .app-icon-img { padding: 20px 0 10px 0; }
+#bar-sushic .app-wrap .app-icon .app-desc { width: 80%; padding: 0 10% 0 10%; }
+#bar-sushic .app-wrap .app-icon .app-desc h4 { padding: 0 0 20px 0; font-size: 24px; }
+#bar-sushic .app-wrap .app-icon .app-desc li { list-style: none; text-align: left; line-height: 26px; }
+
+#bar-sushic .app-wrap .app-btn { width: 100%; display: inline-block; padding: 80px 0 100px 0; }
+#bar-sushic .app-wrap .app-btn a { margin: 0 10px 0 10px; }
+
+#bar-sushic .app-wrap .app-faq { width: 100%; border: 1px solid #c1c1c1; }
+#bar-sushic .app-wrap .app-faq .app-icon-img { height: 150px; }
+
+#bar-sushic .app-wrap .app-faq .app-icon-img .faq-wrap .faq-icon-img { float: left; width: 30%; margin-top: -20px; }
+#bar-sushic .app-wrap .app-faq .app-icon-img .faq-wrap .faq-desc { float: left; width: 60%; margin: 0 5% 0 5%; }
+#bar-sushic .app-wrap .app-faq .app-icon-img .faq-wrap .faq-desc h4 { font-size: 24px; }
+#bar-sushic .app-wrap .app-faq .app-icon-img .faq-wrap .faq-desc li { list-style: none; line-height: 1.4em; font-size: 16px; }
+
+
+
+#bar-app .sub-section { width: 912px; }
+
+#bar-app { padding: 100px 0 0 0;  }
+#bar-app .app-wrap { width: 100%; padding: 40px 0 80px 0; }
+
+#bar-app .app-wrap .open { display: block; }
+#bar-app .app-wrap .close { display: none; }
+#bar-app .app-wrap .app-section { width: 100%; background-color: #F0F0F0; height: 60px; color: #000000; font-size: 20px; line-height: 3em; text-align: left; margin-bottom: 20px; }
+#bar-app .app-wrap .app-section span { padding-left: 30px; float: left; width: 64%;}
+#bar-app .app-wrap .app-section div { float: left; height: 60px; text-align: right; width: 30%; }
+#bar-app .app-wrap .sel { background-color: #FE6F21; color: #FFFFFF; }
+
+#bar-app .app-wrap .app-section-question { width: 100%; }
+#bar-app .app-wrap .app-section-question .btnAdd { width: 96%; padding: 0 0 20px 2%; text-align: right; }
+#bar-app .app-wrap .app-section-question .btnAdd span { line-height: 26px; vertical-align: text-bottom; padding-left: 5px; }
+
+#bar-app .app-wrap table { width: 96%; margin: 20px 2% 20px 2%; }
+#bar-app .app-wrap table th { padding: 0 10px; text-align: right; }
+#bar-app .app-wrap table td { padding: 10px 0; text-align: left; }
+#bar-app .app-wrap table td p { font-weight: 800; margin: 0 0 10px; text-align: left; }
+#bar-app .app-wrap table td span { margin: 0 0 0 0; }
+#bar-app .app-wrap table .alignRight { text-align: right; }
+#bar-app .app-wrap table .alignRight span { margin: 0 20px 0 0; }
+
+#bar-app .app-wrap table td span .txt01 { height: 40px; width: 20%; border: 1px solid #ccc; padding-left: 10px; box-sizing: border-box; }
+#bar-app .app-wrap table td span .txt02 { height: 40px; width: 100%; border: 1px solid #ccc; padding-left: 10px; box-sizing: border-box; }
+#bar-app .app-wrap table td span .txt03 { height: 40px; width: 100%; border: 1px solid #ccc; padding-left: 10px; box-sizing: border-box; margin-bottom: 10px; }
+#bar-app .app-wrap table td span .txt04 { height: 40px; width: 45%; border: 1px solid #ccc; padding-left: 10px; box-sizing: border-box; }
+#bar-app .app-wrap table td span .txt05 { height: 80px; width: 100%; border: 1px solid #ccc; padding-left: 10px; box-sizing: border-box; }
+
+#bar-app .app-wrap table td div span .date-picker { padding-left: 40px; }
+#bar-app .app-wrap table td div .calIcon { margin-top: 10px; position: absolute; margin-left: 10px; }
+
+#bar-app .app-wrap .question-02 { display: none; }
+#bar-app .app-wrap .question-03 { display: none; }
+#bar-app .app-wrap .question-04 { display: none; }
+#bar-app .app-wrap .question-05 { display: none; }
+#bar-app .app-wrap .question-06 { display: none; }
+
+#bar-app .app-wrap .app-section .btnEdit { display: none; }
+
+#bar-app .app-wrap .app-section-question #employee-line-02 { display: none }
+#bar-app .app-wrap .app-section-question #employee-sec-02 { display: none }
+#bar-app .app-wrap .app-section-question #employee-line-03 { display: none }
+#bar-app .app-wrap .app-section-question #employee-sec-03 { display: none }
+#bar-app .app-wrap .app-section-question #employee-line-04 { display: none }
+#bar-app .app-wrap .app-section-question #employee-sec-04 { display: none }
+#bar-app .app-wrap .app-section-question #employee-line-05 { display: none }
+#bar-app .app-wrap .app-section-question #employee-sec-05 { display: none }
+
+#bar-app .app-wrap .app-section-question #employment-line-02 { display: none }
+#bar-app .app-wrap .app-section-question #employment-sec-02 { display: none }
+#bar-app .app-wrap .app-section-question #employment-line-03 { display: none }
+#bar-app .app-wrap .app-section-question #employment-sec-03 { display: none }
+#bar-app .app-wrap .app-section-question #employment-line-04 { display: none }
+#bar-app .app-wrap .app-section-question #employment-sec-04 { display: none }
+#bar-app .app-wrap .app-section-question #employment-line-05 { display: none }
+#bar-app .app-wrap .app-section-question #employment-sec-05 { display: none }
+
+#bar-app .app-wrap .app-section-question #reference-line-02 { display: none }
+#bar-app .app-wrap .app-section-question #reference-sec-02 { display: none }
+#bar-app .app-wrap .app-section-question #reference-line-03 { display: none }
+#bar-app .app-wrap .app-section-question #reference-sec-03 { display: none }
+#bar-app .app-wrap .app-section-question #reference-line-04 { display: none }
+#bar-app .app-wrap .app-section-question #reference-sec-04 { display: none }
+#bar-app .app-wrap .app-section-question #reference-line-05 { display: none }
+#bar-app .app-wrap .app-section-question #reference-sec-05 { display: none }
+
+#bar-app .app-wrap .app-section-question #skill-line-02 { display: none }
+#bar-app .app-wrap .app-section-question #skill-sec-02 { display: none }
+#bar-app .app-wrap .app-section-question #skill-line-03 { display: none }
+#bar-app .app-wrap .app-section-question #skill-sec-03 { display: none }
+#bar-app .app-wrap .app-section-question #skill-line-04 { display: none }
+#bar-app .app-wrap .app-section-question #skill-sec-04 { display: none }
+#bar-app .app-wrap .app-section-question #skill-line-05 { display: none }
+#bar-app .app-wrap .app-section-question #skill-sec-05 { display: none }
+
+#bar-app .app-wrap .app-section-question .btnAdd { cursor: pointer; }
+
+
+
+#app-faq .sub-section { width: 1196px; }
+
+#app-faq .staff-faq { display: block; }
+#app-faq .bar-faq { display: none; }
+
+#app-faq { padding: 100px 0 0 0;  }
+#app-faq .btn-h40 { margin-right: 5px;margin-left: 5px; }
+#app-faq .faq-wrap { width: 100%; padding: 60px 0 80px 0; }
+
+#app-faq .faq-wrap .faq-line { padding: 0 0 20px 0; }
+#app-faq .faq-wrap .faq-line hr { height: 1px; background-color: #cecece; }
+#app-faq .faq-wrap .faq-item { text-align: left; padding-bottom: 2%; }
+#app-faq .faq-wrap .faq-item .faq-question { padding: 0 0 20px 2%; font-size: 18px; font-weight: 800; }
+#app-faq .faq-wrap .faq-item .faq-desc { background-color: #f5f5f5; padding: 2.5%; border-bottom: 1px solid #cecece; }
+
+
+
+@media screen and (max-width: 1280px) {
+	#staff-sushic .sub-section { width: 90%; }
+
+	#bar-sushic .sub-section { width: 90%; }
+	#bar-sushic .app-wrap .app-icon { height: 300px; }
+
+	#app-faq .sub-section { width: 90%; }
+}
+
+@media screen and (max-width: 1023px) {
+	#staff-sushic .app-wrap .app-btn { display: none; }
+	#staff-sushic .app-wrap .app-msg { display: block; }
+
+	#staff-sushic .app-wrap .app-msg { width: 90%; padding: 4% 4% 7% 4%; display: inline-block; }
+	#staff-sushic .app-wrap .app-msg span { font-size: 36px; color: #F06D26; font-weight: 800; }
+
+	#staff-sushic .app-wrap { width: 100%; padding: 60px 0 80px 0; }
+	#staff-sushic .app-wrap .app-icon { width: 100%; float: left; height: inherit; margin-bottom: 20px; }
+	#staff-sushic .app-wrap .app-icon .app-icon-img { float: left; width: 20%; }
+	#staff-sushic .app-wrap .app-icon .app-desc { width: 80%; float: left; text-align: left; padding: 20px 10% 20px 10%; box-sizing: border-box; }
+
+	#staff-sushic .app-wrap .app-faq .faq-wrap span { padding: 35px 0; width: 35%; }
+	
+	#staff-sushic .sub-section { width: 100%; }
+	#staff-sushic .sub-section .contents { padding: 0 5% 0 5%; }
+
+	#staff-sushic .app-wrap { width: 90%; padding: 60px 5% 80px 5%; }
+	#staff-sushic .app-wrap .app-icon { width: 100%; float: left; height: inherit; margin-bottom: 20px; box-sizing: border-box; }
+	#staff-sushic .app-wrap .app-icon .app-icon-img { float: left; width: 35%; }
+	#staff-sushic .app-wrap .app-icon .app-desc { width: 65%; float: left; text-align: left; padding: 20px 10% 20px 5%; box-sizing: border-box; }
+
+	#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn a { width: 200px; }
+	#staff-sushic .app-wrap .app-faq .app-icon-img { height: inherit; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap { float: none; width: 100%; height: inherit; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap img { padding: 60px 35px 25px 25px; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap span { padding: 20px 0; width: 60%; font-size: 24px; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn { float: none; width: 70%; height: inherit; text-align: left; margin: -40px 29px 29px 152px; padding: 0; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn a { width: 200px; }
+
+	#bar-sushic .app-wrap .app-btn { display: none; }
+	#bar-sushic .app-wrap .app-msg { display: block; }
+
+	#bar-sushic .app-wrap .app-msg { width: 90%; padding: 4% 4% 7% 4%; display: inline-block; }
+	#bar-sushic .app-wrap .app-msg span { font-size: 36px; color: #F06D26; font-weight: 800; }
+
+	#bar-sushic .app-wrap { width: 100%; padding: 60px 0 80px 0; }
+	#bar-sushic .app-wrap .app-icon { width: 100%; float: left; height: inherit; margin-bottom: 20px; }
+	#bar-sushic .app-wrap .app-icon .app-icon-img { float: left; width: 20%; }
+	#bar-sushic .app-wrap .app-icon .app-desc { width: 80%; float: left; text-align: left; padding: 50px 10% 20px 10%; font-size: 20px; box-sizing: border-box; }
+
+	#bar-sushic .app-wrap .app-faq .app-icon-img { height: inherit; }
+	#bar-sushic .app-wrap .app-faq .faq-first { border-bottom: 1px solid #cecece; border-right: 0px; }
+	#bar-sushic .app-wrap .app-faq .faq-wrap { float: none;    width: 90%;    height: 110px;    text-align: left;    margin: 35px 0 10px 5%;    box-sizing: border-box; }
+
+
+	#app-faq .faq-wrap { width: 90%; padding: 30px 5% 80px 5%; }
+	#app-faq .faq-wrap .faq-item { padding-bottom: 5%; }
+}
+
+@media screen and (max-width: 767px) {
+	#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn { margin: 10px 29px 29px 152px; }
+
+	#staff-sushic .app-wrap .app-faq .faq-wrap img { padding: 60px 30px 25px 25px; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap span { padding: 20px 0; width: 50%; font-size: 18px; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn { margin: -30px 0 29px 150px; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn a { width: 180px; }
+
+	#bar-sushic .app-wrap .app-icon .app-icon-img { width: 25%; padding: 5% 5% 0 5%;}
+	#bar-sushic .app-wrap .app-icon .app-desc { width: 65%; float: left; text-align: left; padding: 30px 5% 20px 5%; font-size: 20px; box-sizing: border-box; }
+	#bar-sushic .app-wrap .app-faq .faq-wrap img { padding: 0 25px 0 0; }
+	#bar-sushic .app-wrap .app-faq .faq-wrap { height: 130px; }
+	#bar-sushic .app-wrap .app-faq .app-icon-img .faq-wrap .faq-desc li { word-break: break-all; }
+
+}
+
+@media screen and (max-width: 479px) {
+	#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn { margin: 10px 29px 29px 152px; }
+
+	#staff-sushic .app-wrap .app-faq .faq-wrap img { padding: 60px 30px 25px 25px; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap span { padding: 20px 0; width: 50%; font-size: 18px; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn { width: 44%; margin: -30px 0 29px 150px; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn a { width: 140px; font-size: 18px; }
+}
+
+@media screen and (max-width: 320px) {
+	#staff-sushic .app-wrap .app-faq .faq-wrap img { padding: 50px 25px 25px 15px; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap span { padding: 20px 0; width: 40%; font-size: 18px; }
+	#staff-sushic .app-wrap .app-faq .faq-wrap .faq-btn { margin: 20px 0 29px 70px; }
+}

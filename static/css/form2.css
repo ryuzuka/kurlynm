@@ -1,0 +1,107 @@
+.w30 { width: 30% !important; margin: auto; }
+
+.w45 { width: 45% !important; margin: auto; }
+
+.w50 { width: 50% !important; margin: auto; }
+
+.w60 { width: 60% !important; margin: auto; }
+
+.w65 { width: 65% !important; margin: auto; }
+
+.w70 { width: 70% !important; margin: auto; }
+
+.w80 { width: 80% !important; margin: auto; }
+
+.w90 { width: 90% !important; margin: auto; }
+
+.bdh72 { height: 70px !important; line-height: 70px !important; }
+
+.bdh56 { height: 54px !important; line-height: 54px !important; }
+
+.bdh48 { height: 46px !important; line-height: 46px !important; }
+
+.mt30 { margin-top: 6.984%; }
+
+.mb50 { margin-bottom: 50px; }
+
+.btn_wrap { display: block; width: 100%; text-align: center; }
+.btn_wrap:before, .btn_wrap:after { content: ""; display: table; }
+.btn_wrap:after { clear: both; }
+.btn_wrap .btn { border-width: 1px; border-color: #999; border-style: solid; border-radius: 3px; color: #9a9a9a; display: block; padding: 0; }
+.btn_wrap .btn_blue { width: 100%; line-height: inherit; border-color: #1c59f1; color: #fff; background: #1c59f1; }
+.btn_wrap .btn_gray { width: 100%; line-height: inherit; border-color: #666; color: #fff; background: #666; }
+.btn_wrap .btn_white { width: 100%; line-height: inherit; border-color: #222; color: #222; background: #fff; }
+
+.btn_right { width: 49%; float: right; }
+.btn_right:before, .btn_right:after { content: ""; display: table; }
+.btn_right:after { clear: both; }
+
+.btn_left { width: 49%; float: left; }
+
+.btn_list { width: 20%; float: right; }
+.btn_list a.btn { display: inline-block; height: 46px; width: 100% !important; line-height: inherit; border-color: #222 !important; color: inherit; background: #fff !important; }
+.btn_list a.btn em { display: block; height: 3px; width: 25px; background: #000; margin: 5px auto; }
+.btn_list a.btn .top { margin: 13px auto 5px; }
+
+.btn_area:before, .btn_area:after { content: ""; display: table; }
+.btn_area:after { clear: both; }
+
+.btn_3 span { width: 32%; float: left; line-height: 54px; }
+.btn_3 span:nth-of-type(1), .btn_3 span:nth-of-type(2) { margin-right: 2%; }
+.btn_3 span:nth-of-type(1) a, .btn_3 span:nth-of-type(2) a { width: 100%; font-size: 1.125em; }
+
+.btn_type2 { border-top: 2px solid #000; margin: 50px 0 0 !important; padding: 50px 0 0; }
+.btn_type2 .btn { margin: 0 0 10px; font-size: 24px; font-weight: inherit; color: inherit; line-height: 70px; }
+.btn_type2 .btn_wrap:first-child .btn { background: #3abfc6; border-color: #3abfc6; color: #fff; }
+
+.btn_type4 { display: block; text-align: center; line-height: 56px; width: 50%; float: left; box-sizing: border-box; background: #666; color: #fff; font-size: 1em; }
+.btn_type4 a { display: block; }
+.btn_type4:first-of-type { border-right: 0; border-radius: 3px 0 0 3px; }
+.btn_type4:last-of-type { border-left: 0; border-radius: 0 3px 3px 0; }
+.btn_type4.on { background: #1c59f1; }
+
+input { -webkit-appearance: none; -moz-appearance: none; padding: 0; text-indent: 10px; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box; line-height: 54px; }
+input:focus { border-color: #000; }
+
+input[type="submit"] { text-indent: 0; }
+
+select { -webkit-appearance: none; -moz-appearance: none; background: #fff url(/images/arrow2.png) no-repeat right 10px center; }
+
+select::-ms-expand { display: none; border: none; }
+
+.filebox:before, .filebox:after { content: ""; display: table; }
+.filebox:after { clear: both; }
+.filebox input[type="file"] { position: absolute; width: 1px !important; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+.filebox label { display: inline-block; color: #fff; font-weight: bold; line-height: normal; vertical-align: middle; background-color: #fdfdfd; cursor: pointer; border: 1px solid #ebebeb; border-bottom-color: #e2e2e2; border-radius: 3px; background: #425b8f; float: right; width: 23%; height: 42px; text-align: center; line-height: 42px; }
+.filebox .upload-name { display: inline-block; font-family: inherit; line-height: normal; vertical-align: middle; background-color: #fff; -webkit-appearance: none; -moz-appearance: none; appearance: none; color: #000; float: left; width: 75% !important; }
+
+input[type="radio"] { -webkit-appearance: none; -ms-appearance: none; appearance: none; background: url(/images/radio.png) no-repeat center; background-position: 0 -20px; width: 20px; height: 20px; border: 0; vertical-align: middle; margin: 0; }
+
+input[type="radio"]:checked { background-position: 0 0; }
+
+input[type="checkbox"] { -webkit-appearance: none; -moz-appearance: none; appearance: none; width: 24px; height: 24px; border: 0; background: url(/images/checkbox.png) no-repeat; margin: 0 5px 0 20px; vertical-align: bottom; }
+
+input[type="checkbox"]:checked { background-position: 0 -24px; }
+
+@media (max-width: 425px) { .bdh72 { height: 60px !important; line-height: 60px !important; }
+  .bdh56 { height: 44px !important; line-height: 44px !important; }
+  .bdh48 { height: 38px !important; line-height: 38px !important; }
+  .btn_list { width: 20%; }
+  .btn_list a.btn { height: 38px; }
+  .btn_list a.btn .top { margin: 10px auto 5px; } }
+@media (max-width: 375px) { .bdh72 { height: 50px !important; line-height: 50px !important; }
+  .bdh56 { height: 34px !important; line-height: 34px !important; }
+  .bdh48 { height: 28px !important; line-height: 28px !important; }
+  .btn_list { width: 18%; }
+  .btn_list a.btn { height: 28px; }
+  .btn_list a.btn em { width: 20px; height: 2px; margin: 4px auto; }
+  .btn_list a.btn .top { margin: 7px auto 4px; }
+  .btn_type4, .btn_3 span { line-height: 44px; }
+  input[type="text"], input[type="password"], input[type="email"], input[type="date"], select, .upload-name { height: 44px !important; line-height: 44px !important; }
+  label { height: 42px !important; line-height: 42px !important; }
+  .member_info .section label { height: 26px !important; }
+  .layer .member { padding: 80px 20px 0 !important; }
+  .layer .member label { margin: 0 !important; }
+  .layer .member .btn { margin: 30px 0 0 !important; } }
+@media (max-width: 320px) { .btn_list { width: 23% !important; }
+  .btn_type4, .btn_3 span { line-height: 38px; } }

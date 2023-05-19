@@ -1,0 +1,171 @@
+/* default custom select styles */
+div.cs-select {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	text-align: left;
+	background: #fff;
+	z-index: 100;
+	width: 100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #262626;
+	font-family: 'ProximaNovaA-Regular';
+}
+
+/* 추가 */
+div.cs-select .cs-placeholder {
+	font-size: 16px;
+	font-weight: normal;
+}
+div.cs-select .cs-options {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+div.cs-select:focus {
+	outline: none; 
+}
+
+.cs-select select {
+	display: none;
+}
+
+.cs-select > span {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 42px;
+	line-height: 42px;
+}
+
+/* selected option */
+.cs-select > span::after,
+.cs-select .cs-selected span::after {
+	speak: none;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.cs-select > span::after {
+	content: '';
+	right: 1em;
+}
+
+.cs-select .cs-selected span::after {
+	content: '';
+	margin-left: 1em;
+}
+
+.cs-select.cs-active > span::after {
+	-webkit-transform: translateY(-50%) rotate(180deg);
+	transform: translateY(-50%) rotate(180deg);
+}
+
+div.cs-active {
+	z-index: 200;
+}
+
+/* options */
+.cs-select .cs-options {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	background: #fff;
+	visibility: hidden;
+}
+
+.cs-select.cs-active .cs-options {
+	visibility: visible;
+}
+
+.cs-select ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-top: 1px solid #333333;
+}
+
+.cs-select ul li {
+      height: 42px;
+      line-height: 42px;
+      cursor: pointer;
+}
+
+.cs-select li.cs-optgroup > span {
+	cursor: default;
+}
+
+/* custom border style */
+div.cs-skin-border {
+      font-size: 16px;
+      font-weight: 700;
+}
+
+.cs-skin-border > span {
+      border: 1px solid #ccc;
+      -webkit-transition: background 0.2s, border-color 0.2s;
+      transition: background 0.2s, border-color 0.2s;
+      padding: 0 10px;
+}
+
+.cs-skin-border > span::after,
+.cs-skin-border .cs-selected span::after {
+      content: url(/images/dropdown_icon01.png);
+}
+
+.cs-skin-border ul span::after {
+      content: '';
+      opacity: 0;
+}
+
+.cs-skin-border .cs-selected span::after {
+      content: '';
+      color: #ddd9c9;
+      font-size: 1.5em;
+      opacity: 1;
+      -webkit-transition: opacity 0.2s;
+      transition: opacity 0.2s;
+}
+
+.cs-skin-border.cs-active > span {
+      background: #fff;
+      border-color: #ccc;
+      color: #262626;
+      border-bottom: 0;
+}
+
+.cs-skin-border .cs-options {
+      color: #262626;
+      font-size: 0.75em;
+      opacity: 0;
+      -webkit-transition: opacity 0.2s, visibility 0s 0.2s;
+      transition: opacity 0.2s, visibility 0s 0.2s;
+}
+
+.cs-skin-border.cs-active .cs-options {
+      opacity: 1;
+      -webkit-transition: opacity 0.2s;
+      transition: opacity 0.2s;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-top:0;
+      padding: 0 10px;
+}
+
+.cs-skin-border ul span {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+}

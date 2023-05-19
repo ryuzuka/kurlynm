@@ -1,0 +1,72 @@
+	html,body
+	{
+		margin:0;
+		padding:0;
+		background: #fff;
+	}
+	.modal-overlay
+	{
+		position:fixed;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		height:100%;
+		width:100%;
+		margin:0;
+		padding:0;
+		background:#000000;
+		opacity:.75;
+		filter: alpha(opacity=75);
+		-moz-opacity: 0.75;
+		z-index:3050;
+	}
+	* html .modal-overlay
+	{   
+		position: absolute;
+		height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+	}
+	.modal-window
+	{
+		position:fixed;
+		top:50%;
+		left:50%;
+		margin:0;
+		padding:0;
+		z-index:3060;
+		background:#fff;
+	}
+	* html .modal-window
+	{
+		position:absolute;
+	}
+	.close-window
+	{
+		position:absolute;
+		width:32px;
+		height:32px;
+		right:8px;
+		top:8px;
+		text-indent:-99999px;
+		overflow:hidden;
+		cursor:pointer;
+		opacity:.5;
+		filter: alpha(opacity=50);
+		-moz-opacity: 0.5;
+	}
+	.close-window:hover
+	{
+		opacity:.99;
+		filter: alpha(opacity=99);
+		-moz-opacity: 0.99;
+	}
+
+#Draft { width: 600px;    height: 480px;    margin-top: -240px;    margin-left: -300px; }
+
+@media screen and (max-width: 480px) {
+	#Draft { width: 80%;    height: 36%;    margin-top: -140px;    margin-left: -40%; }
+}
+
+@media screen and (max-width: 360px) {
+	#Draft { width: 80%;    height: 36%;    margin-top: -180px;    margin-left: -40%; }
+}

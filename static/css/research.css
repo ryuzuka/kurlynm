@@ -1,0 +1,50 @@
+.survey {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 1004px;
+  width: 100%;
+  padding: 24px 3% 60px;
+  text-align: left;
+}
+.survey dt {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.555555555555556;
+}
+.survey dd {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 30px;
+  margin: 15px 0 50px;
+}
+.survey dd .radio-box label,
+.survey dd .check-box label {
+  overflow: hidden;
+  display: block;
+  margin-bottom: 0;
+  color: #404040;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 2;
+}
+.survey dd .radio-box label input[type="radio"],
+.survey dd .radio-box label input[type="checkbox"],
+.survey dd .check-box label input[type="radio"],
+.survey dd .check-box label input[type="checkbox"] {
+  margin-right: 10px;
+}
+.survey dd input[type="text"] {
+  max-width: 1004px;
+  width: 100%;
+  margin-top: 10px;
+}
+.survey dd textarea {
+  max-width: 1004px;
+  width: 100%;
+  height: 134px;
+  resize: none;
+}
