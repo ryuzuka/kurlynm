@@ -186,7 +186,7 @@
         </ul>
 
         <div class="btnare">
-            <a href="#" class="btn btn-primary" onclick="javascript:moveLink();">채용 공고 바로가기</a>
+            <button class="btn btn-primary" onclick="javascript:moveLink();">채용 공고 바로가기</button>
         </div>
 
       </div>
@@ -194,7 +194,7 @@
 
     </div>
     <!-- e : contents -->
-    
+
   <script>
 	  ;($ => {
 		  $.depth1Index = 3
@@ -202,8 +202,8 @@
 
       $(() => window.KurlyNextmile.Recruit())
 	  })(window.jQuery)
-      
+
       function moveLink() {
-          window.open("https://marketkurly.recruiter.co.kr/appsite/company/index");
+          window.open("https://kurly.career.greetinghr.com/");
       }
-  </script>    
+  </script>

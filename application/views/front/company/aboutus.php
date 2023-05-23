@@ -65,7 +65,7 @@
           <li class="bg01">
             <a href="#">
               <em class="kurly-text-03">풀콜드체인 인프라 기반의<br>물류 서비스</em>
-              <p class="kurly-text-06">차별화된 Full Cold Chain 인프라를 <br>구축하여 
+              <p class="kurly-text-06">차별화된 Full Cold Chain 인프라를 <br>구축하여
                 타사 대비 월등한 <br>사후처리 서비스를 제공합니다.</p>
             </a>
           </li>
@@ -107,17 +107,17 @@
       </div>
     </div>
     <!-- e : contents -->
-    
+
   <script>
 	  ;($ => {
 		  $.depth1Index = 0
 		  $.depth2Index = 0
-		
+
 		  // WOW
 		  $(() => new WOW().init())
 	  })(window.jQuery)
-      
+
       function moveURL() {
-          window.open('https://marketkurly.recruiter.co.kr/appsite/company/index');
-      }      
-  </script>    
+          window.open('https://kurly.career.greetinghr.com/');
+      }
+  </script>

@@ -48,7 +48,7 @@
                 해결하기 위해 컬리넥스트마일은 <br>
                 오늘도 치열한 고민을 멈추지 않습니다.</p>
         </div>
-       
+
         <div class="company_slide slider">
             <div>
               <div class="slide_box bg01">
@@ -98,15 +98,15 @@
         <h2 class="nomargin">컬리넥스트마일이 열어갈 <br>
             미래의 여정에 함께하세요.</h2>
         <div class="btn_are">
-            <button class="btn btn-primary w100" onclick="javascript:moveURL();">채용 바로가기</button>
+          <a href="/recruit" class="btn btn-primary w100">채용 바로가기</a>
         </div>
     </div>
-    
+
   <script>
 	  ;($ => {
 		  $.depth1Index = 0
 		  $.depth2Index = 0
-		  
+
 		  $(function () {
 			  $(".company_slide").slick({
 				  dots: true,
@@ -118,8 +118,8 @@
 			  })
 		  })
 	  })(window.jQuery)
-      
+
       function moveURL() {
-          window.open('https://marketkurly.recruiter.co.kr/appsite/company/index');
+          window.open('https://kurly.career.greetinghr.com/');
       }
-  </script>    
+  </script>

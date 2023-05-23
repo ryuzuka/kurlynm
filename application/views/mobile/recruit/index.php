@@ -202,7 +202,7 @@
     </div>
 
     <!--: End #contents -->
-    
+
   <script>
 	  ;($ => {
 		  $.depth1Index = 3
@@ -210,8 +210,8 @@
 
 		  $(function () {})
 	  })(window.jQuery)
-      
+
       function moveLink() {
-          window.open("https://marketkurly.recruiter.co.kr/appsite/company/index");
+          window.open("https://kurly.career.greetinghr.com/");
       }
-  </script>    
+  </script>
