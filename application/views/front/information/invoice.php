@@ -140,11 +140,11 @@
               </tr>
               </thead>
               <tbody id="delivery-status-body1">
-              <tr class="emp">
+              <!--tr class="emp">
                 <td>마켓컬리</td>
                 <td>컬리넥스트마일</td>
                 <td>집화</td>
-              </tr>
+              </tr-->
               </tbody>
             </table>
           </div>
@@ -225,11 +225,11 @@
               </tr>
               </thead>
               <tbody id="delivery-status-body2">
-              <tr class="emp">
+              <!--tr class="emp">
                 <td>마켓컬리</td>
                 <td>컬리넥스트마일</td>
                 <td>집화</td>
-              </tr>
+              </tr-->
               </tbody>
             </table>
           </div>

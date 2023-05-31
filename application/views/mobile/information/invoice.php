@@ -59,9 +59,9 @@
           </div>
           <div class="info-list">
             <ul id="delivery-status-body">
-              <li>마켓컬리<i class="next"></i></li>
+              <!--li>마켓컬리<i class="next"></i></li>
               <li>컬리넥스트마일</li>
-              <li>배송출발</li>
+              <li>배송출발</li-->
             </ul>
           </div>
 
@@ -124,9 +124,9 @@
           </div>
           <div class="info-list">
             <ul id="delivery-status-body1">
-              <li>마켓컬리<i class="next"></i></li>
+              <!--<li>마켓컬리<i class="next"></i></li>
               <li>컬리넥스트마일</li>
-              <li>배송출발</li>
+              <li>배송출발</li>-->
             </ul>
           </div>
 
