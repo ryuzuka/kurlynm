@@ -46,16 +46,16 @@
 	      <a href="#" id="bt-delivery" class="btn btn-primary">조회하기</a>
 	    </div>
     </div>
-    
+
     <div class="inner-section if-transport del_chk_form" style="display: none;">
-       
+
           <h3>조회결과</h3>
-         
+
         <div class="box active">
           <div class="info-number">
             <h4>운송장번호</h4>
             <span id="invoice-no">250-01-123412341234</span>
-        
+
           </div>
           <div class="info-list">
             <ul id="delivery-status-body">
@@ -109,11 +109,11 @@
 
       </div>
 
-    
+
     <div class="inner-section if-transport result del_chk_form2"  style="display: none;">
-       
+
         <h3>조회결과</h3>
-         
+
         <div class="box">
           <div class="info-number">
             <h4>운송장번호</h4>
@@ -161,7 +161,7 @@
 
         </div>
 
-        
+
         <div class="box">
           <div class="info-number">
             <h4>운송장번호</h4>
@@ -172,7 +172,7 @@
           </div>
           <div class="info-list">
             <ul id="delivery-status-body2">
-              
+
             </ul>
           </div>
 
@@ -209,7 +209,7 @@
 
       </div>
 
-    
+
       <!--div class="inquiry">
         <p>편하신 경로로 문의주시면 신속하게 답변드리겠습니다.</p>
         <h2>배송과정에 문제가 있으신가요?</h2>
@@ -219,9 +219,9 @@
             <button class="btn btn-primary">카카오톡 문의</button>
         </div-->
     </div>
-    
+
     <!--: End #contents -->
-    
+
     <div id="pop-alert" class="layer" role="dialog" aria-modal="true">
         <div class="layer-wrap">
             <div class="layer-content"></div>
@@ -229,10 +229,10 @@
                 <button class="btn"></button>
             </div>
         </div>
-    </div>   
-    
+    </div>
+
   <script>
-      
+
     $(document).ready(() => {
 		const invoiceNo = getParam('invoice_no');
 		if(!invoiceNo) {
@@ -241,13 +241,13 @@
 
 		searchDeliveryState(invoiceNo, "");
 	});
-	
+
 	$('#bt-delivery').click((e) => {
 		$('.del_chk_form').hide();
 
-		const invoiceNo1 = $('#it-invoice1').val();	
-        const invoiceNo2 = $('#it-invoice2').val();	
-        
+		const invoiceNo1 = $('#it-invoice1').val();
+        const invoiceNo2 = $('#it-invoice2').val();
+
 		if(!invoiceNo1 && !invoiceNo2) {
             $('#pop-alert').modal({
                 text: '운송장 번호를 입력해주세요.',
@@ -268,15 +268,17 @@
             searchDeliveryState(invoiceNo1, 1);
             searchDeliveryState(invoiceNo2, 2);
         }
-		
+
 	});
 
 	const searchDeliveryState = (invoiceNo, idx) => {
+		$('.info_dev').show()
+
 		const url = 'https://tms.api.kurly.com/tms/v1/delivery/invoices/'+invoiceNo;
 		$.getJSON( url )
 		.done( ( json ) => {
 			const data = json.data;
-    
+
 			if(data == null) {
                 $('#pop-alert').modal({
                     text: '입력하신 송장번호가 잘못되었습니다.<br>확인 후 다시 시도해주세요',
@@ -290,19 +292,27 @@
                     }
                 });
 			}
-            
-            if(idx > 0) {
-                $('.del_chk_form2').show();
-            } else {
-                $('.del_chk_form').show();
-            }
+
+			let $chkForm = null
+			if(idx > 0) {
+				$chkForm = $('.del_chk_form2').show();
+			} else {
+				$chkForm = $('.del_chk_form').show();
+			}
+
+			if (!data.trace_infos) {
+				$chkForm.find('.info_dev').hide()
+			}
+
 			$('#search_from').hide();
 
 			$('.del_step'+ idx +' li').removeClass('on');
 			$($('.del_step'+ idx +' li')[data.level-1]).addClass('on');
 
 			$('#invoice-no'+idx).text(data.invoice_no);
-			
+
+			if (!data.trace_infos) return
+
 			const deliveryStatus = {
 				invoiceNo 	: data.invoice_no,
 				location 	: data.trace_infos[0].location,
@@ -319,7 +329,7 @@
 			let traceHistoryBody = '';
             let cnt_info = 1;
             let last_info = "";
-            
+
 			data.trace_infos.forEach(traceInfo => {
                 if(data.trace_infos.length == cnt_info) last_info = "on";
 				const tableData = {
@@ -333,7 +343,7 @@
 					`<li class="`+last_info+`"><p>${tableData.dateTime}</p>`
 					+`<h3>${tableData.location}`
 					+`<b>${tableData.status}</b></h3></li>`;
-				
+
 				traceHistoryBody += tableRowHtml;
                 cnt_info++;
 			});
@@ -355,7 +365,7 @@
 		});
 	}
 
-    
+
 	const getParam = (sname) => {
 		const paramStr = location.search.substr(location.search.indexOf("?") + 1);
 
@@ -368,21 +378,21 @@
 		}
 		return null;
 	}
-    
+
 	  ;($ => {
 		  $.depth1Index = 2
 		  $.depth2Index = 2
-		
+
 		  $(function(){
 			  /** 조회 결과 toggle */
 			  $('.inner-section.result').on('click', '.more-view', e => {
 				  let $moreBtn = $(e.target)
 				  let $result = $moreBtn.closest('.box')
 				  let isOpen = $moreBtn.hasClass('active')
-				
+
 				  $moreBtn[!isOpen ? 'addClass' : 'removeClass']('active')
 				  $result[!isOpen ? 'addClass' : 'removeClass']('active')
 			  })
 		  })
 	  })(window.jQuery)
-  </script>    
+  </script>

@@ -46,7 +46,7 @@
           <a href="#" id="bt-delivery" class="btn btn-primary">조회하기</a>
         </div>
       </div>
-        
+
        <div class="inner-section if-result del_chk_form" style="display: none;">
                 <h3 class="kurly-text-03">조회 결과</h3>
                 <div class="round-box">
@@ -116,7 +116,7 @@
                   </button>
                 </div>
       </div>
-        
+
       <div class="inner-section if-result del_chk_form2" style="display: none;">
         <h3 class="kurly-text-03">조회 결과</h3>
         <div class="round-box">
@@ -289,10 +289,10 @@
           </button>
         </div>
       </div>
-        
+
     </div>
     <!-- e : contents -->
-    
+
     <div id="pop-alert" class="layer" role="dialog" aria-modal="true">
         <div class="layer-wrap">
             <div class="layer-content"></div>
@@ -300,8 +300,8 @@
                 <button class="btn"></button>
             </div>
         </div>
-    </div>   
-    
+    </div>
+
 <script>
 
 	$(document).ready(() => {
@@ -312,13 +312,13 @@
 
 		searchDeliveryState(invoiceNo, "");
 	});
-	
+
 	$('#bt-delivery').click((e) => {
 		$('.del_chk_form').hide();
 
-		const invoiceNo1 = $('#it-invoice1').val();	
-        const invoiceNo2 = $('#it-invoice2').val();	
-        
+		const invoiceNo1 = $('#it-invoice1').val();
+        const invoiceNo2 = $('#it-invoice2').val();
+
 		if(!invoiceNo1 && !invoiceNo2) {
             $('#pop-alert').modal({
                 text: '운송장 번호를 입력해주세요.',
@@ -339,7 +339,7 @@
             searchDeliveryState(invoiceNo1, 1);
             searchDeliveryState(invoiceNo2, 2);
         }
-		
+
 	});
 
 	const searchDeliveryState = (invoiceNo, idx) => {
@@ -347,7 +347,7 @@
 		$.getJSON( url )
 		.done( ( json ) => {
 			const data = json.data;
-    
+
 			if(data == null) {
                 $('#pop-alert').modal({
                     text: '입력하신 송장번호가 잘못되었습니다.<br>확인 후, 다시 시도해주세요',
@@ -361,7 +361,7 @@
                     }
                 });
 			}
-            
+
             if(idx > 0) {
                 $('.del_chk_form2').show();
             } else {
@@ -373,7 +373,9 @@
 			$($('.del_step'+ idx +' li')[data.level-1]).addClass('active');
 
 			$('#invoice-no'+idx).text(data.invoice_no);
-			
+
+			if (!data.trace_infos) return
+
 			const deliveryStatus = {
 				invoiceNo 	: data.invoice_no,
 				location 	: data.trace_infos[0].location,
@@ -404,7 +406,7 @@
 					+`	<td>${tableData.location}</td>`
 					+`	<td>${tableData.status}</td>`
 					+`</tr>`;
-				
+
 				traceHistoryBody += tableRowHtml;
 			});
 			$('#trace-info-body' + idx).html(traceHistoryBody);
@@ -425,7 +427,7 @@
 		});
 	}
 
-    
+
 	const getParam = (sname) => {
 		const paramStr = location.search.substr(location.search.indexOf("?") + 1);
 
@@ -438,21 +440,21 @@
 		}
 		return null;
 	}
-    
+
 	  ;($ => {
 		  $.depth1Index = 2
 		  $.depth2Index = 2
-		
+
 		  $(function () {
 			  /** 조회 결과 toggle */
 			  $('.contents.information').on('click', '.more-view', e => {
 				  let $moreBtn = $(e.target)
 				  let $result = $moreBtn.closest('.round-box')
 				  let isOpen = $moreBtn.hasClass('active')
-				
+
 				  $moreBtn[!isOpen ? 'addClass' : 'removeClass']('active')
 				  $result[!isOpen ? 'addClass' : 'removeClass']('active')
 			  })
 		  })
 	  })(window.jQuery)
-</script>    
+</script>
