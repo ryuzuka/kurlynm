@@ -14,7 +14,7 @@
             <em class="kurly-text-04">교통편</em>
             <ul class="traffic">
               <li>장지역 3번출구 도보 5분</li>
-              <li>복정역 4번출구 도보 5분</li>
+              <li>복정역 3번출구 도보 5분</li>
             </ul>
             <em class="kurly-text-04">주소</em>
             <span class="kurly-text-06">서울시 송파구 송파대로 55,<br>서울 복합물류단지 A동 701호</span>
@@ -27,11 +27,11 @@
       </div>
     </div>
     <!-- e : contents -->
-    
+
   <script>
 	  ;($ => {
 		  $.depth1Index = 0
 		  $.depth2Index = 1
 
 	  })(window.jQuery)
-  </script>    
+  </script>

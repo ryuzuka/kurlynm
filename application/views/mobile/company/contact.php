@@ -17,7 +17,7 @@
             <div class="text start">
                 <h2>교통편</h2>
                  <p>장지역 3번출구 도보 5분</p>
-                 <p>복정역 4번출구 도보 5분</p>
+                 <p>복정역 3번출구 도보 5분</p>
             </div>
             <div class="text">
                 <h2>주소</h2>
@@ -32,11 +32,11 @@
     </div>
 
     <!--: End #contents -->
-    
+
   <script>
 	  ;($ => {
 		  $.depth1Index = 0
 		  $.depth2Index = 1
-		  
+
 	  })(window.jQuery)
-  </script>    
+  </script>
